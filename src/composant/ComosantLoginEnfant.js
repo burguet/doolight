@@ -1,5 +1,4 @@
 // FormulaireAvecEnfant.js
-import './composant.css';
 import React, { useState } from 'react';
 
 class EnfantComposant extends React.Component {
