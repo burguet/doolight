@@ -25,6 +25,7 @@ const JulienCodeComp = ({ couleur }) => {
 
     return (
         <div>
+            <h1>Exo28</h1>
             <div style={{ color }} onMouseOver={handleMouseOver}>
                 Je suis un composant
             </div>
