@@ -1,6 +1,6 @@
 // FormulaireAvecEnfant.js
 import React, { useState } from 'react';
-
+//class enfant
 class EnfantComposant extends React.Component {
   render() {
     const { login, password } = this.props;
@@ -18,7 +18,7 @@ class EnfantComposant extends React.Component {
     );
   }
 }
-
+//fontcion pour modifier en temps réel les valeur
 const FormulaireAvecEnfant = () => {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
@@ -30,7 +30,7 @@ const FormulaireAvecEnfant = () => {
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
   };
-
+//affichage
   return (
     <div>
         <h1>Exo32</h1>
