@@ -18,7 +18,7 @@ const JulienCodeComp = ({ couleur }) => {
         return randomColor;
     };
 
-    const handleMouseOver = () => {
+    const handleMouseOver = () => { // passage de la souris
         const randomColor = getRandomColor();
         setColor(randomColor);
     };

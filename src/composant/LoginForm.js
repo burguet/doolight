@@ -15,10 +15,8 @@ const LoginForm = () => {
     setIsError(e.target.value !== '1234');
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Vous pouvez ajouter ici la logique de gestion de la connexion
-    // Par exemple, vous pouvez envoyer les données au backend pour vérification
+  const handleSubmit = (e) => { // pour intercepté le form pour éviter le rechargement de la page
+    e.preventDefault(); 
   };
 
   return (
