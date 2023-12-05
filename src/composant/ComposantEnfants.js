@@ -1,6 +1,6 @@
 // FormulaireAvecEnfants.js
 import React, { useState } from 'react';
-
+//mise en place de la classe enfant
 class EnfantLogin extends React.Component {
   render() {
     const { login } = this.props;
@@ -17,7 +17,7 @@ class EnfantLogin extends React.Component {
     );
   }
 }
-
+//mise en place de la classe enfant
 class EnfantPassword extends React.Component {
   render() {
     const { password } = this.props;
@@ -34,7 +34,7 @@ class EnfantPassword extends React.Component {
     );
   }
 }
-
+//fontcion pour modifier en temps réel les valeur
 const FormulaireAvecEnfants = () => {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
@@ -48,7 +48,7 @@ const FormulaireAvecEnfants = () => {
   };
 
   const isBothFilled = login.trim() !== '' && password.trim() !== '';
-
+//affichage sur la page
   return (
     <div style={{ color: isBothFilled ? 'green' : 'red' }}>
       <h1>Exo 33</h1>

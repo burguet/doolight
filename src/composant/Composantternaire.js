@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+//mise en place de l'initialisation du compposant
 class ComposantAvecInput extends Component {
   constructor(props) {
     super(props);
@@ -8,7 +8,7 @@ class ComposantAvecInput extends Component {
       isBothFilled: false,
     };
   }
-
+//fonction pour modifier l'etat du composant
   handleInputChange = (e) => {
     const newInputContent = e.target.value;
     const newIsBothFilled = newInputContent.trim() !== '';
@@ -21,7 +21,8 @@ class ComposantAvecInput extends Component {
 
   render() {
     const { isBothFilled, inputContent } = this.state;
-
+//affichage d'un input et des phrace grace 
+// ? est un ternaire qui remplace le if etle else
     return (
       <div>
         <h2>Exo30 ternaire</h2>
