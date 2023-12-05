@@ -7,9 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
        <form>
-         <h5><input ></input> login</h5>
-         <h5><input></input> password</h5>
-        <button>connexion</button>
+        
        </form>
        <p>
         bienvenu a abstergo
